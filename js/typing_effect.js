@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded',function(event){
     function typeWriter(text, i, fnCallback) {
       // check if text isn't finished yet
       if (i < (text.length)) {
-        document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+        document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span id="display" aria-hidden="true"></span>';
   
         // wait and then call this function again for next character
         setTimeout(function() {

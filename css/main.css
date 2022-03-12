@@ -70,7 +70,7 @@ h2 {
   border-radius: 50%; }
 
 /* typing effect */
-span {
+#display {
   border-right: 0.07em solid #98BF64;
   animation: caret 1s steps(1) infinite; }
 
@@ -161,6 +161,11 @@ span {
       background: white; } }
 
 /*** RESUME PAGE ***/
+.bullet {
+  color:#98BF64; 
+  margin: 1px;
+}
+
 .resume-heading {
   font-family: 'Carme', sans-serif;
   text-decoration: underline;
